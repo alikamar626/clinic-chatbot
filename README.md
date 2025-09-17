@@ -15,21 +15,6 @@ A **React-based chatbot** for Heart Clinic that helps patients **book, cancel, a
 
 ---
 
-## 📁 Project Structure
-
-my-clinic-app/
-├─ src/
-│ ├─ components/
-│ │ └─ Chatbot.tsx # Main chatbot interface
-│ ├─ firebaseConfig.ts # Firebase initialization
-│ ├─ App.tsx # Main React entry
-│ └─ ...
-├─ public/
-├─ package.json
-├─ README.md
-└─ .gitignore # Make sure .env is ignored
-
----
 
 ## ⚡ How It Works
 
