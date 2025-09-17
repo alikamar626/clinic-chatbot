@@ -1,0 +1,123 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  
+}
+
+
+.container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+  
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c3e50; /* Dark blue-gray */
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd; /* Light gray border */
+  background-color: #f9f9f9; /* Light gray background */
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #66cccc; /* Purple border on focus */
+  outline: none;
+}
+
+/* Password Field */
+.password-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.password-field .input-field {
+  padding-right: 40px; /* Space for the toggle button */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.toggle-password:hover {
+  color: #333;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a6666; /* Purple button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3c9797; /* Blue on hover */
+}
+
+/* Error Message */
+.error-message {
+  color: #e74c3c; /* Red for errors */
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Footer Links */
+.form-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-footer a {
+  color: #1a6666; /* Purple link */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.form-footer a:hover {
+  color: #3c9797; /* Blue on hover */
+  text-decoration: none;
+}

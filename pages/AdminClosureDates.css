@@ -1,0 +1,130 @@
+.admin-closure-dates {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-actions {
+    margin-bottom: 20px;
+  }
+  
+  .admin-nav-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+  
+  .admin-nav-button:hover {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    background-color: #fdecea;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .success-message {
+    color: #388e3c;
+    background-color: #ebf5eb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .closure-form-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .closure-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+  }
+  
+  .form-group input[type="date"],
+  .form-group input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .closure-list {
+    flex: 1;
+    border-left: 1px solid #eee;
+    padding-left: 30px;
+  }
+  
+  .closure-list h3 {
+    margin-top: 0;
+  }
+  
+  .closure-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .admin-denied {
+    text-align: center;
+    padding: 40px;
+    color: #d32f2f;
+  }

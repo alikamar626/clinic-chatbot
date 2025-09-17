@@ -1,0 +1,18 @@
+/* Layout.css */
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the layout takes at least the full viewport height */
+  }
+  
+  .main-content {
+    flex: 1; /* Allow the main content to grow and fill the remaining space */
+    padding: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main-content {
+      padding: 10px;
+    }
+  }

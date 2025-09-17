@@ -1,0 +1,145 @@
+/* Header Styles */
+.header {
+  background: linear-gradient(135deg, #282b2d, #1a6666); /* Gradient background */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  margin: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Hamburger Icon */
+.hamburger-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 21px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  height: 4px;
+  background-color: white;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Navigation Links */
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2575fc;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-icon {
+  font-size: 32px;
+  color: white;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-phone {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  /* Show hamburger icon on mobile */
+  .hamburger-icon {
+    display: flex;
+  }
+
+  /* Hide nav by default on mobile */
+  .nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  /* When menu is open, display nav */
+  .nav.active {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Profile Section */
+  .profile-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logout-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

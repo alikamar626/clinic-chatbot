@@ -1,0 +1,111 @@
+.admin-medication-container {
+    max-width: 800px;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-medication-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .medication-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #34495e;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  button[type="submit"].loading {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    background-color: #fadbd8;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .success-message {
+    color: #27ae60;
+    background-color: #d5f5e3;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  .admin-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.action-button {
+  background-color: red;
+  color: red;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+/* Adjust the filters container */
+.admin-filters {
+  display: flex;
+  gap: 10px;
+}
+
+/* Make sure your existing styles for select and buttons remain */  

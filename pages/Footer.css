@@ -1,0 +1,41 @@
+.footer {
+
+    background: linear-gradient(135deg, #282b2d, #1a6666); /* Gradient background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position:  fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    margin: 0;
+  }
+  
+  
+ 
+
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+
+}
+.footer a{
+  margin: 20px;
+  color: aliceblue;
+}
+.footer a:hover{
+  font-size: 20px;
+  color: #28282d;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,59 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.main-content {
+  flex: 1; /* Takes up remaining space */
+  padding: 20px; /* Add padding for content */
+  margin-top: 80px; /* Adjust for fixed header height */
+  margin-bottom: 60px; /* Adjust for fixed footer height */
+  overflow-y: auto; /* Allow main content to scroll */
+}
+
+/* Header styles */
+.header {
+  background-color: #000000; /* Purple background */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Fixed header */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure header is above other content */
+  height: 80px; /* Fixed height for header */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #6a11cb; /* Purple background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed; /* Fixed footer */
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure footer is above other content */
+  height: 60px; /* Fixed height for footer */
+}

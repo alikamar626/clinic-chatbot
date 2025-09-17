@@ -1,0 +1,186 @@
+/* AdminAppointments.css */
+.admin-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-filters {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.admin-filters select {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.refresh-btn {
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 18px;
+  color: #333;
+}
+
+.no-appointments {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointments-table th,
+.appointments-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.appointments-table th {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  color: #333;
+}
+
+.appointments-table td {
+  font-size: 14px;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.status-waiting {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.status-confirmed {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.status-cancelled {
+  background-color: #f44336;
+  color: white;
+}
+
+.status-date {
+  font-size: 12px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.confirm-btn,
+.cancel-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.confirm-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #e53935;
+}
+/* Add these new styles */
+.admin-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.action-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+/* Adjust the filters container */
+.admin-filters {
+  display: flex;
+  gap: 10px;
+}
+
+/* Make sure your existing styles for select and buttons remain */  
